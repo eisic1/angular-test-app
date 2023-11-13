@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-notification',
-  templateUrl: './notification.component.html',
-  styleUrls: ['./notification.component.css']
+  template: `<div class="alert alert-success"><p>This website uses cookies to provide better user experience.</p></div>`,
+  //styleUrls: ['./notification.component.css']
 })
 export class NotificationComponent {
 
