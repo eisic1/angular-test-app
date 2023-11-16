@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ProductsComponent {
   products = [
     { id: 1, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
-    { id: 2, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
+    { id: 2, name: 'Smart Watch', price: '100', color: 'Black', available: 'Not Available' },
     { id: 3, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
     { id: 4, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
     { id: 5, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
