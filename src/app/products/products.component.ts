@@ -10,7 +10,7 @@ export class ProductsComponent {
     { id: 1, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
     { id: 2, name: 'Smart Watch', price: '100', color: 'Black', available: 'Not Available' },
     { id: 3, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
-    { id: 4, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
+    { id: 4, name: 'Smart Watch', price: '100', color: 'Black', available: 'Not Available' },
     { id: 5, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
     { id: 6, name: 'Smart Watch', price: '100', color: 'Black', available: 'Available' },
   ];
