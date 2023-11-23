@@ -1,5 +1,5 @@
 <div>
-    <app-search></app-search>
+    <app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
     <app-filter 
         [all]="getTotalProducts()"
         [free]="getTotalFreeProducts()"
@@ -9,7 +9,8 @@
 </div>
 
 <ng-container *ngFor="let p of products">
-    <div *ngIf="productsCountRadioButton === 'All' || productsCountRadioButton === p.type"> 
+    <!-- productsCountRadioButton === 'All' || productsCountRadioButton === p.type -->
+    <div *ngIf="searchText === '' || p.name.toLowerCase().includes(searchText.toLowerCase())"> 
         <!-- Get index element -->
         <!-- <div *ngFor="let p of products; let i = index"> -->
         <div class="product-container" [ngStyle]="{ backgroundColor: p.available === 'Available' ? '#D5F5E3' : '#FADBD8' }">
