@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class DemoComponent {
   sayHello(inputEl: HTMLInputElement){
-    console.log('xxxxxxxxxx', inputEl);
+    console.log('Say Hello', inputEl.value);
   }
 }
