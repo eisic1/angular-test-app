@@ -13,6 +13,8 @@ import { FilterComponent } from './filter/filter.component';
 import { DemoComponent } from './demo/demo.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { ChildContainerComponent } from './child-container/child-container.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
+import { NgContentProductComponent } from './ng-content-product/ng-content-product.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ChildContainerComponent } from './child-container/child-container.compo
     FilterComponent,
     DemoComponent,
     CustomerListComponent,
-    ChildContainerComponent
+    ChildContainerComponent,
+    NgContentComponent,
+    NgContentProductComponent
   ],
   imports: [
     BrowserModule,
