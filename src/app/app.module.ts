@@ -15,6 +15,8 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { ChildContainerComponent } from './child-container/child-container.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { NgContentProductComponent } from './ng-content-product/ng-content-product.component';
+import { LifecycleHookComponent } from './lifecycle-hook/lifecycle-hook.component';
+import { LchDemoComponent } from './lch-demo/lch-demo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { NgContentProductComponent } from './ng-content-product/ng-content-produ
     CustomerListComponent,
     ChildContainerComponent,
     NgContentComponent,
-    NgContentProductComponent
+    NgContentProductComponent,
+    LifecycleHookComponent,
+    LchDemoComponent
   ],
   imports: [
     BrowserModule,
